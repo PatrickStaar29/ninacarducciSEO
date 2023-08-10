@@ -98,7 +98,7 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+	color: #333;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
@@ -314,6 +314,16 @@ input[type="submit"] {
 		right: 0;
 		z-index: -1;
 	}
+}
+
+/**
+Carrousel
+**/
+.carrousel{
+	height: 665px;
+}
+.carrousel__img{
+	width: 100vw;
 }
 
 @media all and (max-width: 650px) {
